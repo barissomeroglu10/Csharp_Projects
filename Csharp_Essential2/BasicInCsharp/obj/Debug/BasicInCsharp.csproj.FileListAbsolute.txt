@@ -1,0 +1,7 @@
+C:\Users\baris\OneDrive\Documents\GitHub\Csharp_Projects\Csharp_Essential2\BasicInCsharp\bin\Debug\BasicInCsharp.exe.config
+C:\Users\baris\OneDrive\Documents\GitHub\Csharp_Projects\Csharp_Essential2\BasicInCsharp\bin\Debug\BasicInCsharp.exe
+C:\Users\baris\OneDrive\Documents\GitHub\Csharp_Projects\Csharp_Essential2\BasicInCsharp\bin\Debug\BasicInCsharp.pdb
+C:\Users\baris\OneDrive\Documents\GitHub\Csharp_Projects\Csharp_Essential2\BasicInCsharp\obj\Debug\BasicInCsharp.csproj.AssemblyReference.cache
+C:\Users\baris\OneDrive\Documents\GitHub\Csharp_Projects\Csharp_Essential2\BasicInCsharp\obj\Debug\BasicInCsharp.csproj.CoreCompileInputs.cache
+C:\Users\baris\OneDrive\Documents\GitHub\Csharp_Projects\Csharp_Essential2\BasicInCsharp\obj\Debug\BasicInCsharp.exe
+C:\Users\baris\OneDrive\Documents\GitHub\Csharp_Projects\Csharp_Essential2\BasicInCsharp\obj\Debug\BasicInCsharp.pdb
