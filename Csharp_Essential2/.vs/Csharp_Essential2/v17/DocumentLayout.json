@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F783D11D-7CBA-4CB8-A6C0-10735EF00083}|BasicInCsharp\\BasicInCsharp.csproj|C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential2\\basicincsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F783D11D-7CBA-4CB8-A6C0-10735EF00083}|BasicInCsharp\\BasicInCsharp.csproj|solutionrelative:basicincsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F783D11D-7CBA-4CB8-A6C0-10735EF00083}|BasicInCsharp\\BasicInCsharp.csproj|c:\\users\\baris\\onedrive\\documents\\github\\csharp_projects\\csharp_essential2\\basicincsharp\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F783D11D-7CBA-4CB8-A6C0-10735EF00083}|BasicInCsharp\\BasicInCsharp.csproj|solutionrelative:basicincsharp\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F783D11D-7CBA-4CB8-A6C0-10735EF00083}|BasicInCsharp\\BasicInCsharp.csproj|C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential2\\basicincsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F783D11D-7CBA-4CB8-A6C0-10735EF00083}|BasicInCsharp\\BasicInCsharp.csproj|solutionrelative:basicincsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F783D11D-7CBA-4CB8-A6C0-10735EF00083}|BasicInCsharp\\BasicInCsharp.csproj|c:\\users\\baris\\onedrive\\documents\\github\\csharp_projects\\csharp_essential2\\basicincsharp\\matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F783D11D-7CBA-4CB8-A6C0-10735EF00083}|BasicInCsharp\\BasicInCsharp.csproj|solutionrelative:basicincsharp\\matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Matrix.cs",
+              "DocumentMoniker": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential2\\BasicInCsharp\\Matrix.cs",
+              "RelativeDocumentMoniker": "BasicInCsharp\\Matrix.cs",
+              "ToolTip": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential2\\BasicInCsharp\\Matrix.cs",
+              "RelativeToolTip": "BasicInCsharp\\Matrix.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:48:50.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Methods.cs",
               "DocumentMoniker": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential2\\BasicInCsharp\\Methods.cs",
               "RelativeDocumentMoniker": "BasicInCsharp\\Methods.cs",
               "ToolTip": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential2\\BasicInCsharp\\Methods.cs",
               "RelativeToolTip": "BasicInCsharp\\Methods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAABVAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T22:13:38.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential2\\BasicInCsharp\\Program.cs",
               "RelativeDocumentMoniker": "BasicInCsharp\\Program.cs",
               "ToolTip": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential2\\BasicInCsharp\\Program.cs",
               "RelativeToolTip": "BasicInCsharp\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA+wKAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T22:04:49.901Z"
+              "WhenOpened": "2025-03-05T22:04:49.901Z",
+              "EditorCaption": ""
             }
           ]
         }

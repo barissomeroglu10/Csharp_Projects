@@ -10,7 +10,7 @@ namespace BasicInCsharp
     {
         #region Factorial Method
 
-        static int Factorial(int x)
+        public int Factorial(int x)
         {
             if (x <= 0)
             {
@@ -25,25 +25,25 @@ namespace BasicInCsharp
         #region Methods
 
         // No parameters - No Return Value
-        static void WriteScreen()
+        public void WriteScreen()
         {
             Console.WriteLine("Hello, I learn C#");
         }
 
         // Parameter Field - Not Returning Value
-        static void WriteScreen(string Name)
+        public void WriteScreen(string Name)
         {
             Console.WriteLine("$Hello {Name}");
         }
 
         // Parameter Field - Returning Value
-        static int Sum(int a, int b)
+        public int Sum(int a, int b)
         {
             return a + b;
         }
 
         // params keyword -> use this keyword when the number of parameters not clear
-        static int SumParams(params int[] values)
+        public int SumParams(params int[] values)
         {
             int Addition = 0;
 
@@ -56,7 +56,7 @@ namespace BasicInCsharp
         }
 
         // Takes an array as parameter - Returns array
-        static int[] Square(int[] Array)
+        public int[] Square(int[] Array)
         {
             // make an object
             int[] arr = new int[Array.Length];
