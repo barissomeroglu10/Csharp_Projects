@@ -18,16 +18,22 @@ namespace LearningCsharp
             set { _age = value; }
         }
 
+        // public int Age { get => _age; set => _age = value; }
+
         public string Name // encapsulation for name
         {
             get { return _name; }
             set { _name = value; }
         }
 
+        // public string Name { get => _name; set => _name = value; }
+
         public string Surname // encapsulation for surname
         {
             get { return _surname; }
             set { _surname = value; }
         }
+
+        // public string Surname { get => _surname; set => _surname = value; }
     }
 }

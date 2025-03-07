@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -88,6 +89,20 @@ namespace LearningCsharp
 
             */
             #endregion
+
+            int AccountBalance = 0;
+
+            // Getting ballance from user
+            Console.Write("Please Enter Yours Balance: ");
+            AccountBalance = Convert.ToInt32(Console.ReadLine());
+
+            Bank b1 = new Bank();
+
+            b1.Balance = AccountBalance;
+
+            Console.WriteLine($"NewBalance: {b1.Balance}");
+
+            Console.ReadKey();
         }
     }
 }
