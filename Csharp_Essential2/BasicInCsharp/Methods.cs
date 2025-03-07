@@ -33,7 +33,7 @@ namespace BasicInCsharp
         // Parameter Field - Not Returning Value
         public void WriteScreen(string Name)
         {
-            Console.WriteLine("$Hello {Name}");
+            Console.WriteLine($"Hello {Name}");
         }
 
         // Parameter Field - Returning Value
@@ -74,7 +74,17 @@ namespace BasicInCsharp
         #region Lambda Functions
         static Func<int,int,int> Sum2 = (i, j) => i + j;
 
+        public int SumFunction(int m, int n)
+        {
+            return Sum2(m, n);
+        }
+
         static Func<int,int> Square2 = x => x * x;
+
+        public int SquareFunction(int m)
+        {
+            return Square2(m);
+        }
 
         static Action<string> Warning = Name => Console.WriteLine("${Name} Warning");
         #endregion

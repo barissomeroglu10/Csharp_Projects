@@ -153,6 +153,18 @@ namespace BasicInCsharp
 
             #endregion
 
+            #region Using Lambda Functions
+            Console.WriteLine("\n30 + 3: " + object1.SumFunction(30,3));
+            Console.WriteLine("\n3 * 3: " + object1.SquareFunction(3));
+
+            string Name;
+
+            Console.Write("Enter a Name: ");
+            Name = Console.ReadLine();
+
+            object1.WriteScreen(Name);
+            #endregion
+
             Console.ReadKey();
 
         }
