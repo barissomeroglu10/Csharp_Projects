@@ -73,11 +73,10 @@ namespace LearningCsharp
             If the property will operate on which field, we need to define the property from that field type.
 
             class MyClass
-            {
+           {
+            private int _age;
 
-            private int _name;
-
-            public int Name
+            public int Age
             {
 
             get { return [anything]; }
@@ -85,7 +84,13 @@ namespace LearningCsharp
 
             }
 
-            }
+           }
+
+            Prop property: Prop properties create their own fields in the background when they are compiled. Therefore, there is no need to define a field.
+
+            A prop property can be read only but it can't be write only
+
+            public int Age { get; set; }
 
             */
             #endregion
