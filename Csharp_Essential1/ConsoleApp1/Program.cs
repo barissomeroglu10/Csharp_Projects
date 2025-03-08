@@ -86,11 +86,62 @@ namespace LearningCsharp
 
            }
 
-            Prop property: Prop properties create their own fields in the background when they are compiled. Therefore, there is no need to define a field.
+            - Prop property: Prop properties create their own fields in the background when they are compiled. Therefore, there is no need to define a field.
 
             A prop property can be read only but it can't be write only
 
             public int Age { get; set; }
+
+
+            - Auto property initializers: we can assign value to read only prop with auto property initializer
+
+            class InsanEntity
+            {
+              public int Age { get; set; } = 23;
+            }
+
+            Since the structure here is ‘prop’, it will create the field in the background and a value will be assigned to it by default. Here we interfere with the default value with the first assignment.
+
+
+            - Ref Readonly Returns: It is the property that allows us to return the field in a class with its reference and on the other hand makes the value of this variable read only.
+
+            string _adi = "Barış Someroğlu";
+            public ref readonly string Adi => ref _adi;
+
+            When we call this property (Adi), I reach field not field's value.
+
+
+            - Expression Bodied: It allows us to use Lambda Expression for properties. We can use this only for read only situations.
+
+            public string Gender
+            {
+              get
+              {
+                return "Male";
+              }
+
+            } ----->  public string Gender => "Male";
+
+
+            - Init Only / Init Accessor: we can assign first value to an object with Init Only prop. and it is guaranteed that this value is not changed in the following process.
+
+            */
+            #endregion
+
+            #region Auto Initializer vs Init Only
+            /*
+            
+            Auto Initializer x Object Initializer --> no
+            Init Only x Object Initializer --> yes
+
+            // Object Initializer
+            Book b1 = new Book
+            {
+             
+              Author = ".....";
+              Name = ".......";
+
+            };
 
             */
             #endregion
