@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\PropertyCodes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17CB6A0F-8CCA-45AC-8270-9BC29B25F212}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\baris\\onedrive\\documents\\github\\csharp_projects\\propertycodes\\consoleapp1\\controlandcalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17CB6A0F-8CCA-45AC-8270-9BC29B25F212}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\controlandcalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A996C61-FA77-43D9-B056-4C1460238785}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\baris\\onedrive\\documents\\github\\csharp_projects\\propertycodes\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A996C61-FA77-43D9-B056-4C1460238785}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A996C61-FA77-43D9-B056-4C1460238785}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\baris\\onedrive\\documents\\github\\csharp_projects\\propertycodes\\consoleapp2\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A996C61-FA77-43D9-B056-4C1460238785}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17CB6A0F-8CCA-45AC-8270-9BC29B25F212}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\baris\\onedrive\\documents\\github\\csharp_projects\\propertycodes\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17CB6A0F-8CCA-45AC-8270-9BC29B25F212}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CB6A0F-8CCA-45AC-8270-9BC29B25F212}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\PropertyCodes\\consoleapp1\\controlandcalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CB6A0F-8CCA-45AC-8270-9BC29B25F212}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\controlandcalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +26,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ControlAndCalculate.cs",
-              "DocumentMoniker": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\PropertyCodes\\ConsoleApp1\\ControlAndCalculate.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\ControlAndCalculate.cs",
-              "ToolTip": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\PropertyCodes\\ConsoleApp1\\ControlAndCalculate.cs*",
-              "RelativeToolTip": "ConsoleApp1\\ControlAndCalculate.cs*",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAwwD4AAAAiAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\PropertyCodes\\ConsoleApp2\\Worker.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Worker.cs",
+              "ToolTip": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\PropertyCodes\\ConsoleApp2\\Worker.cs",
+              "RelativeToolTip": "ConsoleApp2\\Worker.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:33:40.98Z",
+              "WhenOpened": "2025-03-08T22:00:46.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\PropertyCodes\\ConsoleApp2\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Program.cs",
+              "ToolTip": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\PropertyCodes\\ConsoleApp2\\Program.cs",
+              "RelativeToolTip": "ConsoleApp2\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:58:47.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ControlAndCalculate.cs",
+              "DocumentMoniker": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\PropertyCodes\\ConsoleApp1\\ControlAndCalculate.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\ControlAndCalculate.cs",
+              "ToolTip": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\PropertyCodes\\ConsoleApp1\\ControlAndCalculate.cs",
+              "RelativeToolTip": "ConsoleApp1\\ControlAndCalculate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:33:40.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\PropertyCodes\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\PropertyCodes\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T21:27:43.126Z",
               "EditorCaption": ""
