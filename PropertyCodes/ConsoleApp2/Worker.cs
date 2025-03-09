@@ -8,8 +8,11 @@ namespace ConsoleApp2
 {
     public class Worker
     {
+        // fields
         private double _salary = 0.0d;
         private double minSalary = 5000;
+
+        // property
         public double _Salary
         {
             get { return _salary; }
