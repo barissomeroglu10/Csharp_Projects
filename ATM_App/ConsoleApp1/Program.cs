@@ -10,10 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Blue;
+
             string Password = "1234";
             int TryRight = 3;
 
-            Console.Write("Enter Password:");
+            Console.Write("Enter Password: ");
             string EnteredPassword = Console.ReadLine();
 
             while (TryRight > 0)
@@ -49,6 +52,8 @@ namespace ConsoleApp1
 
             bool a = true;
 
+            BankAccount b1 = new BankAccount(UserName, Balance);
+
             while (a)
             {
                 Console.WriteLine("\t\t\t\t ATM MENU");
@@ -61,8 +66,31 @@ namespace ConsoleApp1
 
                 switch(MenuNumber)
                 {
-                    
+                    case 1: b1.ShowBalance();
+                        break;
+
+                    case 2: Console.Write("Please Enter Deposit Ammount: ");
+                        int DepositAmount = Convert.ToInt32(Console.ReadLine());
+
+                        b1.Deposit(DepositAmount);
+                        break;
+
+                    case 3: Console.Write("Please Enter Withdraw Ammount: ");
+                        int WithdrawAmount = Convert.ToInt32(Console.ReadLine());
+
+                        b1.Withdraw(WithdrawAmount);
+                        break;
+
+                    case 4: Console.WriteLine("Closing the ATM");
+                        a = false;
+                        break;
                 }
+            }
+
+            for (int i = 1; i <= 100; i++)
+            {
+                Console.Write($"App is closing %{i} \r"); // \r return the first line
+                System.Threading.Thread.Sleep(40); // wait 40 ms
             }
 
             Console.ReadKey();
