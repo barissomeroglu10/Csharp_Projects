@@ -4,6 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+#region Developer: Barış Someroğlu
+/*
+Purpose of the code is learn oop/class logic and use it for daily life
+
+Date: 18.03.2025 / 02:00 am
+*/
+#endregion
+
 namespace ConsoleApp1
 {
     internal class Program
@@ -16,11 +24,14 @@ namespace ConsoleApp1
             string Password = "1234";
             int TryRight = 3;
 
-            Console.Write("Enter Password: ");
-            string EnteredPassword = Console.ReadLine();
+            string EnteredPassword = "";
 
             while (TryRight > 0)
             {
+                // Getting password
+                Console.Write("Enter Password: ");
+                EnteredPassword = Console.ReadLine();
+
                 if (EnteredPassword == Password)
                 {
                     Console.WriteLine("Succesfully Login!");
@@ -38,6 +49,12 @@ namespace ConsoleApp1
                     if (TryRight <= 0)
                     {
                         Console.WriteLine("Your account is suspended!");
+
+                        for (int i = 1; i <= 100; i++)
+                        {
+                            Console.Write($"App is closing %{i} \r"); // \r return the first line
+                            System.Threading.Thread.Sleep(40); // wait 40 ms
+                        }
 
                         return;
                     }
