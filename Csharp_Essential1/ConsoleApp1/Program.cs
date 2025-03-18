@@ -146,6 +146,20 @@ namespace LearningCsharp
             */
             #endregion
 
+            #region Method
+
+            // They are the basic programmatic parts that allow us to perform operations on the object, on the values ​​in the fields or on the values ​​coming from outside with parameters.
+
+            // For property, when we get value or read value we act like a variable
+            // But for methods, we act like a method
+            // MyClass o1 = new MyClass();
+            // o1.X(); ---> X is a method
+            // o1.X; ---> X is a property
+
+            // We use methods to make proccess (such as arithmetic proccess etc.)
+            // We use property for Encapsulation
+            #endregion
+
             int AccountBalance = 0;
 
             // Getting ballance from user
