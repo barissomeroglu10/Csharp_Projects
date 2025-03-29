@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{89C24049-0DA3-4535-B13C-AB2E258951AE}|ConsoleApp1\\LearningCsharp.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89C24049-0DA3-4535-B13C-AB2E258951AE}|ConsoleApp1\\LearningCsharp.csproj|C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential1\\consoleapp1\\encapsulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89C24049-0DA3-4535-B13C-AB2E258951AE}|ConsoleApp1\\LearningCsharp.csproj|solutionrelative:consoleapp1\\encapsulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{89C24049-0DA3-4535-B13C-AB2E258951AE}|ConsoleApp1\\LearningCsharp.csproj|C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential1\\consoleapp1\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89C24049-0DA3-4535-B13C-AB2E258951AE}|ConsoleApp1\\LearningCsharp.csproj|solutionrelative:consoleapp1\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89C24049-0DA3-4535-B13C-AB2E258951AE}|ConsoleApp1\\LearningChsarp.csproj|C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential1\\consoleapp1\\encapsulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89C24049-0DA3-4535-B13C-AB2E258951AE}|ConsoleApp1\\LearningChsarp.csproj|solutionrelative:consoleapp1\\encapsulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89C24049-0DA3-4535-B13C-AB2E258951AE}|ConsoleApp1\\LearningCsharp.csproj|C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential1\\consoleapp1\\encapsulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C24049-0DA3-4535-B13C-AB2E258951AE}|ConsoleApp1\\LearningCsharp.csproj|solutionrelative:consoleapp1\\encapsulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Bank.cs",
               "DocumentMoniker": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential1\\ConsoleApp1\\Bank.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Bank.cs",
               "ToolTip": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential1\\ConsoleApp1\\Bank.cs",
               "RelativeToolTip": "ConsoleApp1\\Bank.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T22:05:35.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Encapsulation.cs",
               "DocumentMoniker": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential1\\ConsoleApp1\\Encapsulation.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Encapsulation.cs",
@@ -56,25 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Encapsulation.cs",
-              "DocumentMoniker": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential1\\ConsoleApp1\\Encapsulation.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Encapsulation.cs",
-              "ToolTip": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential1\\ConsoleApp1\\Encapsulation.cs",
-              "RelativeToolTip": "ConsoleApp1\\Encapsulation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T21:39:15.934Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\baris\\OneDrive\\Documents\\GitHub\\Csharp_Projects\\Csharp_Essential1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwJQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAQwL0AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T17:16:36.497Z",
               "EditorCaption": ""

@@ -12,6 +12,8 @@ namespace LearningCsharp
         {
             Console.WriteLine("Hello C#");
 
+            Console.WriteLine("");
+
             #region Class Members
             /*
             1. Field --> variable in class
@@ -160,6 +162,16 @@ namespace LearningCsharp
             // We use property for Encapsulation
             #endregion
 
+            #region this keyword
+            /*
+            1. It represents class's object
+            2. It is used to separate method parameters with the same name
+            3. It is used to call another constructor from a constructor
+
+            this keyword cannot be called from anywhere, it can only be called from within members
+            */
+            #endregion
+
             int AccountBalance = 0;
 
             // Getting ballance from user
@@ -167,10 +179,28 @@ namespace LearningCsharp
             AccountBalance = Convert.ToInt32(Console.ReadLine());
 
             Bank b1 = new Bank();
+            // Bank: the class which we produce object from
+            // (): constructor method
+            // b1: reference whice references the produced object
+
+            // new Bank(): in the heap area
+            // Bank b1: in the stack are
+
+            // Target-Typed new expression
+            // We can use "Type x = new()" instead of "Type x = new Type()"
 
             b1.Balance = AccountBalance;
 
             Console.WriteLine($"NewBalance: {b1.Balance}");
+
+            // The way to make an object from nested class
+            Bank.SubBankAccount subClass = new Bank.SubBankAccount();
+
+            subClass.SubAccount();
+
+            thisClass myObject = new thisClass();
+
+            myObject.X();
 
             Console.ReadKey();
         }
