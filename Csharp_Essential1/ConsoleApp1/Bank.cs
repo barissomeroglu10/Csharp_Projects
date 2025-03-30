@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace LearningCsharp
 {
     /// <summary>
     /// This is the main bank class
@@ -72,7 +72,7 @@ namespace ConsoleApp1
         public void X()
         {
             // When the X method is called on the object created from thisClass, it will call the X method of the current object again.
-            this.X();
+            // this.X();
         }
 
         // This keyword corresponds to the current object of the relevant class structure.

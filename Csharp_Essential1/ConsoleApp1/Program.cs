@@ -1,5 +1,4 @@
-﻿using ConsoleApp1;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +9,9 @@ namespace LearningCsharp
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+
             Console.WriteLine("Hello C#");
 
             Console.WriteLine("");
@@ -172,6 +174,15 @@ namespace LearningCsharp
             */
             #endregion
 
+            #region Object Initializer
+            /*
+            This is the first value assign for properties when an object created.
+
+            In this form, we can only use fields and properties. We can not use methods in this form.
+
+            */
+            #endregion
+
             int AccountBalance = 0;
 
             // Getting ballance from user
@@ -201,6 +212,16 @@ namespace LearningCsharp
             thisClass myObject = new thisClass();
 
             myObject.X();
+
+            // object initializer example
+            TryClass tryObject = new TryClass()
+            {
+                MyProperty1 = 10,
+                MyProperty2 = 20,
+                MyProperty3 = 30,
+            };
+            Console.WriteLine();
+            Console.WriteLine(tryObject.MyProperty1);
 
             Console.ReadKey();
         }
