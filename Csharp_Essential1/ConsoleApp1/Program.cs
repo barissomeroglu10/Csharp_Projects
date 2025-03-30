@@ -183,6 +183,32 @@ namespace LearningCsharp
             */
             #endregion
 
+            #region Deep Copy & Shallow Copy
+            /*
+            Deep Copy: this is a copy method for value type variable. With deep copy, we can directly copy the value type variable.
+                       So with deep copy, a variable can has many copy (copy of itself)
+
+                       int a = 10; int b = a;
+
+            Shallow Copy: this is a copy method for reference type variable. With shallow copy, we can copy reference of an object.
+                          So with shallow copy, a variable's reference has many copy (copy of reference)
+
+                          MyClass myclass = new MyClass();
+                          MyClass m2 = m1;
+            */
+            #endregion
+
+            #region Encapsulation
+            /*
+            We cover our objects with encapsulation to avoid access from 3rd party user(s)
+            With encapsulation, we show our field in control.
+
+            We can actualize encapsulation with 2 way:
+            1. Encapsulation with method
+            2. Encapsulation with property
+            */
+            #endregion
+
             int AccountBalance = 0;
 
             // Getting ballance from user
