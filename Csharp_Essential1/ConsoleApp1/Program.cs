@@ -209,6 +209,32 @@ namespace LearningCsharp
             */
             #endregion
 
+            #region Constructor
+            /*
+            There are special structures that will allow us to define the operations to be performed on the object to be produced
+            from a class during the production of this object, and also to define the operations to be performed for the last time during the destruction of this produced object.
+            These are called "special members".
+
+            Special members:
+            1. Constructor
+            2. Static Constructor
+            3. Destructor
+
+            These special members have structures that can be used in common in all classes.
+
+            *What is Constructor?
+            -It is a method
+            -It's the first worked method when an object created.
+            -Constructor must work when an object created.
+
+            ...... = new MyClass()  (): this is contructor method
+
+            * Constructor's Behaviour Model
+            -Constructor is triggered after a request to create an object with "new" is received and memory is allocated for the relevant object.
+            -Constructor can be responsible for assigning initial values ​​to the files in the creation phase of the objects from a functional point of view. In other words, we can use it for other functions as well.
+            */
+            #endregion
+
             int AccountBalance = 0;
 
             // Getting ballance from user
@@ -239,15 +265,20 @@ namespace LearningCsharp
 
             myObject.X();
 
-            // object initializer example
-            TryClass tryObject = new TryClass()
-            {
-                MyProperty1 = 10,
-                MyProperty2 = 20,
-                MyProperty3 = 30,
-            };
+            //object initializer example
+            //TryClass tryObject = new TryClass()
+            //{
+            //    MyProperty1 = 10,
+            //    MyProperty2 = 20,
+            //    MyProperty3 = 30,
+            //};
+            //Console.WriteLine();
+            //Console.WriteLine(tryObject.MyProperty1);
+
+            TryClass tryClass = new TryClass();
+
             Console.WriteLine();
-            Console.WriteLine(tryObject.MyProperty1);
+            Console.WriteLine($"MyProperty1 (constructor) = {tryClass.MyProperty1}"); // we should see 1 on the console
 
             Console.ReadKey();
         }
